@@ -19,7 +19,7 @@ public class Teste {
      */
     public static void main(String[] args) {
          Aluno aluno = new Aluno();
-         aluno.setNome("Maria");
+         aluno.setNome("Ana Maria");
          aluno.setNota1(8);
          aluno.setNota2(5);
          aluno.setMedia(CalcularMedia.calcularMedia(aluno.getNota1(), aluno.getNota2()));
